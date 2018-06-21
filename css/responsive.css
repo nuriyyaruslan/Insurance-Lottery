@@ -1,0 +1,361 @@
+@media screen and (min-width: 1200px) and (max-width:1599px){
+    .ins-btn-cov{
+        bottom: 24px !important;
+    }
+}
+@media screen and (max-width:1320px){
+    .right-title{
+        font-size: 32px;
+    }
+}
+@media screen and (min-width:1025px){
+    .gift-content,.right-cover_able,.ins-det,.gifts{
+        max-width:880px;
+    }
+    .pass-modal{
+        max-width:764px;
+    }
+}
+@media screen and (max-width: 1480px){
+    .agree-conditions label{
+        font-size: 12px !important;
+    }
+    .competition-input input{
+        font-size:13px;
+    }
+    .suc-reg-title , .suc-reg-txt{
+       max-width:90%;
+    }
+    .gift-cell p{
+        font-size: 14px;
+        max-height: 20px;
+    }
+    .gift-count{
+        padding:0;
+        width:40px;
+        height:40px;
+    }
+    .gift-count p{
+        font-size: 10px !important;
+    }
+    .cnt_gift{
+        top: -2px;
+        position: relative;
+    }
+    .reg_btn_area,.agree-conditions{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .reg-tabs .indicator{
+        width:116px !important;
+    }
+    .warning-message-ins p{
+        padding-left:4px !important;
+    }
+    .gift-content{
+        padding-left:8px;
+        padding-right:8px;
+        /*can be deleted*/
+        margin-top:52px;
+    }
+    .agree-conditions{
+        margin-top:8px;
+    }
+    .comp-item .datetime-picker:after{
+        display: block;
+        content:"";
+        height: 1px;
+        background: #ccc;
+        width:206px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .comp-item{
+        margin-top:10px;
+    }
+    .reg-title p{
+        font-size: 16px;
+        padding-left:16px;
+        padding-right:16px;
+    }
+    .gift-txt span{
+        display: block;
+        margin-bottom:16px;
+    }
+    .gifts-title,.det-title-thin{
+        font-size: 18px;
+    }
+    .gift-cell p,.type-item p{
+        font-size: 12px;
+    }
+    .det-txt,.gift-txt{
+        font-size: 14px;
+    }
+    .det-title{
+        font-size: 26px !important;
+        margin-top:0;
+        margin-bottom:20px;
+    }
+    .gifts{
+        padding:0;
+    }
+    .gift-cell-img {
+        height: 180px;
+        max-height: 180px;
+    }
+    .gift-btn .ins-btn{
+        width:94%;
+    }
+    .ins-det{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .chevron-icon{
+        float: right;
+        position: relative;
+        top:2px;
+        color:#000;
+    }
+    #ins-about,#ins-rule{
+        display: none;
+    }
+    .reg-details{
+        margin-bottom:40px;
+    }
+    .cover-left{
+        position:relative !important;
+    }
+    .ins-details{
+        margin-bottom:30px;
+        height: 360px;
+        margin-top:-28px;
+    }
+    .left-title{
+        font-size: 18px;
+    }
+    .ins-btn-cov{
+        bottom:20px;
+    }
+    .left-title{
+        margin-top:0;
+        padding-top:70px;
+    }
+    .right-cover_able{
+        padding: 0;
+    }
+    .reg-details{
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .form-details input{
+        max-width:86%;
+    }
+    .right-title{
+        font-size: 26px;
+    }
+    .reg-tabs li.tab a{
+        font-size: 16px;
+    }
+    .register_btn, .register_btn:hover, .register_btn:active, .register_btn:focus, .join-race, .join-race:hover, .join-race:active, .join-race:focus{
+        font-size:14px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .ins-btn, .ins-btn:hover, .ins-btn:active, .ins-btn:focus{
+        height: 40px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .type-item{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .gift-cell p, .type-item p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .right-head {
+        border-bottom: 1px solid #ccc;
+        padding:20px 20px 0 20px;
+        /*can be deleted*/
+        position: fixed;
+        background: #fff;
+        z-index: 9999;
+    }
+    .send_mail{
+        top:96px;
+    }
+    .mobile-hesab-logo{
+        float: left;
+    }
+    .ins-lang, .ins-lang:active, .ins-lang:hover, .ins-lang:focus{
+        margin:0;
+        position: relative;
+        bottom:8px;
+        font-size: 12px;
+        right:-12px;
+    }
+    .gift-content{
+        /*can be deleted*/
+        margin-top:52px;
+    }
+    .note{
+        padding-left:0 !important;
+    }
+    .join-race{
+        display: block;
+        margin-top:28px;
+        margin-bottom:24px;
+    }
+    .pass-title{
+        font-size: 18px;
+    }
+    .pass-explain{
+        font-size: 14px;
+    }
+    .send_btn{
+        margin-top:0;
+    }
+    .pass-explain{
+        width:96%;
+    }
+    #fg-pass-modal{
+        min-height: 324px;
+    }
+    .send_mail img{
+        height: 40px;
+    }
+    .send_mail_txt{
+        font-size: 18px;
+        margin-top:20px;
+    }
+    .suc-reg-title{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:320px){
+    .reg-or-login{
+        font-size:11px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .gift_img{
+        text-align: center;
+    }
+    .join-race{
+        width:64%;
+    }
+    .warning-message-ins {
+        padding-left: 44px !important;
+    }
+    .ins-details{
+        background-img:url(../img/mobile-banner.jpg);
+        height: 80vh;
+        padding-top:112px;
+        margin-top:24px;
+    }
+    .note-txt{
+        margin-left:-40px;
+    }
+    .right-head{
+        padding: 20px 20px 0 44px !important;
+    }
+    .ins-lang, .ins-lang:active, .ins-lang:hover, .ins-lang:focus{
+        right:10px;
+    }
+    .right-cover_able{
+        height: 80vh;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+    .gift-content{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .right-cover_able {
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+    .ins-det {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .gifts {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .left-title{
+        font-size:32px;
+    }
+    .type-item p{
+        font-size:18px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .cover-left {
+        display: none;
+    }
+    .cover-right{
+        width:100% !important;
+    }
+    .right-cover_able{
+        height: 60vh !important;
+    }
+    .note-txt i{
+        display: none;
+    }
+    .note{
+        padding-left:0 !important;
+    }
+    .ins-details{
+        display: none;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .ins-btn-cov{
+        bottom:20px;
+    }
+}
+@media screen and (min-width:1044px) and (max-width:1400px){
+    .gift-cell-img{
+        height: 164px;
+        max-height: 164px;
+    }
+}
+@media screen and (min-width:950px) and (max-width:1024px){
+    .gift-cell-img{
+        height: 280px;
+        max-height: 280px;
+    }
+}
+@media screen and (max-width:376px){
+    .gift-cell-img{
+        height: 150px;
+        max-height: 150px;
+    }
+}
+@media screen and (min-height: 1200px){
+    .right-cover_able{
+        max-height: 702px;
+    }
+}
+@media screen and (max-width:1024px){
+    .modal-overlay{
+        width: 100%;
+        left: 0;
+    }
+    .pass-modal{
+        top:24% !important;
+        width:88% !important;
+        left:0 !important;
+    }
+    .right-bg{
+        height: 68vh;
+    }
+}

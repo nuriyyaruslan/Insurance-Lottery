@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>landing-page-insurance</title>
+        <!--meta tags-->
+        <meta name="content-type" content="text/html charset=utf-8" />
+        <meta http-equiv="content-type" content="text/html charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="description about project meta tag"/>
+        <meta name="keywords" content="keyword part about my project,testing keyword"/>
+        <meta name="distribution" content="global"/>
+        <meta name="content-language" content="en"/>
+        <meta name="language" content="en"/>
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/materialdesignicons.min.css">
+        <link type="text/css" href="css/style.css" rel="stylesheet"/>
+        <link type="text/css" href="css/responsive.css" rel="stylesheet"/>
+        <link type="text/css" href="css/jquery.datetimepicker.css" rel="stylesheet"/>
+        <!--select2-->
+        <link type="text/css" href="select2/css/select2.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="row gp-insurance-cover">
+            <div class="col l6 m12 s12 cover-left hide-on-small-only hide-on-med-only no-padding">
+                <div class="ins-details">
+                    <img src="img/icons/ins-hsb-logo.svg" alt="hsb-logo" class="responsive-img ins-hsb-logo">
+                    <div class="row center-align ins-btn-cov">
+                        <a href="javascript:void(0)" class="btn ins-btn">Elə indi icbari sığortanı al
+                            <i class="mdi mdi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 m12 s12 cover-right right-align no-padding">
+                <div class="row right-head">
+                    <a href="javascript:void(0)" class="hide-on-large-only">
+                        <img src="img/icons/mobile-hesab-logo.svg" alt="" class="mobile-hesab-logo">
+                    </a>
+                    <a href="javascript:void(0)" class="btn ins-btn hide-on-small-only hide-on-med-only">İcbari sığortanı online al<i class="mdi mdi-arrow-right"></i></a>
+                    <a href="javascript:void(0)" class="btn ins-lang">RUS</a>
+                </div>
+                <div class="row gift-content">
+                    <div class="col s12">
+                        <p class="right-title">3 Iphone X-dan biri sənin olsun!</p>
+                    </div>
+                    <div class="col m8">
+                        <p class="gift-txt left-align">
+                            Hesab.az-dan avtomobili olan insanlara hədiyyə qazanmaq imkanı yaradır. <br> <br>
+                            <a href="javascript:void(0)" class="btn hide-on-large-only join-race" target="#join-race">Yarışmaya qatıl</a>
+                            Sadəcə aşağıdakı anketdə özünün və avtomobilinin şəxsi məlumatlarını qeyd et və 2 İphone X-dən birini və əlavə 40-a yaxın hədiyyədən birini qazanmaq şansı əldə et!
+                            <br><br>
+                            <span>Heç bir ödəniş,heç bir xərc etmək tələb olunmur.</span> Sadəcə anketdə düzgün şəxsi məlumatları qeyd et və hədiyyə qazanmaq imkanı əldə et.
+                        </p>
+                        <div class="row note-txt">
+                            <div class="col s2 center-align rl-zero-padding note-part">
+                                <i class="mdi mdi-alert-circle-outline hide-on-small-only hide-on-med-only"></i>
+                            </div>
+                            <div class="col m10 s12 left-align note">
+                                <span>Qeyd:</span>
+                                Anketi doldurarken bütün məlumatların düzgünlüyünə əmin olun.Düzgün doldurulmayan anketler yarışmada qalib olarsa,hədiyyə təqdim olunmayacaq.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 rl-zero-padding hide-on-small-only gift_img">
+                        <img src="img/gift.png" alt="gift-img" class="responsive-img gift-img">
+                    </div>
+                </div>
+
+                <div class="row right-bg">
+                    <div class="row right-cover_able">
+                        <!--temporary hidden-->
+                        <div class="col s12 reg-details center-align rl-zero-padding" id="join-race">
+                            <div class="row">
+                                <!--the start of successful registration-->
+                                <div class="col s12 successful-reg">
+                                    <p class="suc-reg-title">Təbriklər</p>
+                                    <p class="suc-reg-txt">Siz müvəffəqiyyərlə qeydiyyatdan keçdiniz.Yarışçmada iştirak etmək üçün emailinizi təstiqləyin.Təsdiq üçün bildiriş emailinizə göndərin.</p>
+                                </div>
+                                <!--the end of successful registration-->
+                                <div class="reg-title">
+                                    <p>Yarışmada iştirak etmək üçün aşağıdakı məlumatları daxil edin!</p>
+                                </div>
+                                <!--the start of competition inputs-->
+                                <div class="row competition-input">
+                                    <div class="row">
+                                        <div class="col s12 comp-title">
+                                            <span>Şəxsi məlumatlar</span>
+                                        </div>
+                                        <div class="row comp-item">
+                                            <div class="col m6 s12">
+                                                <input type="text" placeholder="Ad">
+                                            </div>
+                                            <div class="col m6 s12">
+                                                <input type="text" placeholder="Soyad">
+                                            </div>
+                                        </div>
+                                        <div class="row comp-item">
+                                            <div class="col m6 s12">
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="col m6 s12 confirm">
+                                                <input type="text" placeholder="Phone number">
+                                                <a href="javascript:void(0)" class="confirm-link">Təstiqlə</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--automobile info-->
+                                    <div class="row comp-title auto-detail">
+                                        <div class="col s12 comp-title">
+                                            <span>Avtomobilin məlumatları</span>
+                                        </div>
+                                        <div class="row comp-item" id="extra-auto-dtl">
+                                            <div class="col m6 s12 cmp_item">
+                                                <input type="text" placeholder="Avtomobilin qeydiyyat nişanı">
+                                                <a href="javascript:void(0)" class="tooltip">
+                                                    <i class="mdi mdi-help-circle comp-icon"></i>
+                                                    <div class="tooltiptext">
+                                                        <img src="img/registartion-mark.png" alt="" class="responsive-img">
+                                                    </div>
+                                                </a>
+                                                <!--The start of registration mark-->
+                                                <!--The end of registration mark-->
+                                            </div>
+                                            <div class="col m6 s12 cmp_item datetime-picker">
+                                                <input type="text" class="datetimepicker" placeholder="icbari sığortanın bitmə tarixi"/>
+                                                <a href="javascript:void(0)">
+                                                    <i class="mdi mdi-calendar comp-icon right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row warning-message-ins left-align">
+                                        <p>3-dən çox automobil elavə etmək olmaz!</p>
+                                    </div>
+
+                                    <!--add new automobile-->
+                                    <div class="row add-auto">
+                                        <a href="javascript:void(0)" class="add_auto"><i class="mdi mdi-plus"></i>Başka avtomobil əlavə et</a>
+                                    </div>
+                                    <div class="row comp-item">
+                                        <div class="col m6 s12 agree-conditions left-align">
+                                            <input type="checkbox" class="filled-in" id="agree-conditions" checked="checked"/>
+                                            <label for="agree-conditions"><a class="condition" href="javascript:void(0)">Şərtlərlə</a> &nbsp;tanış oldum və razıyam.</label>
+                                        </div>
+                                        <div class="col m6 s12 right-align reg_btn_area">
+                                            <a href="javascript:void(0)" class="btn register_btn">Göndər</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--the end of competition inputs-->
+
+                                <!--the start of register : temporary hidden-->
+                                <div class="row reg-cover">
+                                    <div class="col s12">
+                                        <p class="reg-or-login">Hesab.az istifadıçisinizsə,lütfən öz profilinizə daxil olun. <br> Hesab.az istifadəçisi deyilsinizsə qeydiyyatdan keçin.</p>
+                                    </div>
+                                    <ul id="tabs-swipe-demo" class="tabs reg-tabs">
+                                        <li class="tab"><a class="active" href="#register">Qeydiyyatdan keç</a></li>
+                                        <li class="tab"><a  href="#login">Hesaba giriş</a></li>
+                                    </ul>
+                                    <div id="register" class="col s12">
+                                        <form class="col s12">
+                                            <div class="row form-details">
+                                                <input type="text" class="validate" placeholder="Ad">
+                                                <input type="text" class="validate" placeholder="Soyad">
+                                                <input type="email" class="validate" placeholder="Email">
+                                                <input type="password" class="validate" placeholder="Şifrə">
+                                            </div>
+                                            <div class="row">
+                                                <a href="javascript:void(0)" class="register_btn btn">Qeydiyyatdan keç</a>
+                                            </div>
+                                            <div class="row">
+                                                <p class="reg_text center-align">
+                                                    Qeydiyyatdan keç düyməsinə tıklamaqla,Siz <a href="javascript:void(0)" class="reg_text_link">Qaydalar və şərtlərimizlə </a> razı olduğunuzu bildirmiş olursunuz.
+                                                </p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--the start of login part-->
+                                    <div id="login" class="col s12">
+                                        <form class="col s12">
+                                            <div class="row form-details">
+                                                <input type="email" class="validate" placeholder="Email">
+                                                <input type="password" class="validate" placeholder="Şifrə">
+                                            </div>
+                                            <div class="row">
+                                                <a href="#lt-fg-pass-modal" class="lt-forgot-pass"><i class="mdi mdi-lock-outline"></i>Şifrəni unutmusunuz?</a>
+                                                <a href="javascript:void(0)" class="register_btn btn enter-btn">Daxil ol</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!--the end of login part-->
+                                </div>
+                                <!--the enf of register-->
+                            </div>
+                        </div>
+                        <!--the start of forgot-password popup-->
+                        <div id="lt-fg-pass-modal" class="modal pass-modal">
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="javascript:void(0)"><i class="mdi mdi-close black-text"></i></a>
+                                </div>
+                                <div class="col s12 center">
+                                    <p class="pass-title">Şifrəni unutmusan?</p>
+                                    <span class="pass-explain">Xahiş edirik sistemə daxil olanda,aşağıdakı göstərilmiş xanaya istifadə etdiyiniz elektron ünvanınızı qeyd edin.Şifrənizin dəyişdirilməsi barədə olan məktub göstərdiyiniz elekron ünvana göndəriləcək.</span>
+                                </div>
+                                <div class="col s12 form-details center">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="col s6 offset-s3 center robot">
+                                    <!--you have to add there "I am not a robot"-->
+                                </div>
+                                <div class="col s12 center">
+                                    <a href="#fg-pass-modal" class="register_btn btn send_btn">Göndər</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--the end of forgot-password popup-->
+                        <!--the start of send mail popup-->
+                        <div id="fg-pass-modal" class="modal pass-modal">
+                            <div class="row">
+                                <div class="col s12">
+                                    <a href="javascript:void(0)"><i class="mdi mdi-close black-text"></i></a>
+                                </div>
+                            </div>
+                            <div class="row center send_mail">
+                                <img src="img/icons/message-icon.png" alt="send-mail">
+                                <p class="send_mail_txt">Bildiriş <a href="javascript:void(0)">m.oruc@onelab.co</a> ünvanına göndərildi.</p>
+                            </div>
+                        </div>
+                        <!--the end of send mail popup-->
+                    </div>
+                </div>
+
+                <!--the start of left side for only mobile-->
+                <div class="row hide-on-large-only mobile-banner">
+                    <div class="col s12  no-padding">
+                        <div class="ins-details">
+                            <div class="row center-align ins-btn-cov">
+                                <a href="javascript:void(0)" class="btn ins-btn">Elə indi icbari sığortanı al
+                                    <i class="mdi mdi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--the end of left side for only mobile-->
+
+                <div class="row ins-det">
+                    <div class="col s12">
+                        <p class="det-title">Yarışma qaydaları <a href="javascript:void(0)" id="ins-rules"><i class="mdi mdi-chevron-down hide-on-med-only hide-on-large-only chevron-icon"></i></a></p>
+                        <p class="det-txt" id="ins-rule">
+                            Yarışmada iştirak etmək istəyən və avtomobili olan istənilən şəxs yuxarıda qeyd olunan anketi tam doldurmalıdır.Anketi doldurarken emailiniz və mobil telefonunuzu təsdiq etmək tələb olunur.Anketdə qeyd etdiyiniz məlumatlar tam olmalıdır.Məlumatlarını qeyd etdiyiniz avtomobil sizə məxsus olmalı və ya iştirakçının həmin avtomobilə etibarnamə hüququ olmalıdır.Qeyd olunan məlumatlar düzgün olmazsa və əgər siz qalib olarsınızsa,hədiyyə təqdim olunmayacaq.Anketi göndərməmişdən öncə mütləq məlumatların doğruluğunu yoxlayın.Anketi doldurmaqla və göndərməklə siz şərtlər toplusu ilə razılığınızı bildirirsiniz.Şərtlər toplusunu oxumağı tövsiyə edirik.
+                        </p>
+                    </div>
+                    <div class="col s12">
+                        <p class="det-title">Yarışma haqqında <a href="javascript:void(0)" id="ins-abouts"> <i class="mdi mdi-chevron-down hide-on-med-only hide-on-large-only chevron-icon"></i></a></p>
+                        <p class="det-txt" id="ins-about">
+                           Avtomobili olan istənilən şəxs rahatlıqla hesab.az portalına daxil olaraq İcbari avtomobil sığortasını cəmi 1 dəqiqəyə əldə edə bilər.Əldə olunmuş icbari sığorta polisini istənilən zaman sayta daxil olaraq çap etmək mümkündür.Hesab.az öz şəxsi avtomobili olan şəxslər arasında icbari avtomobil sığortasının vaxtında və online olara rahat formada almağı təbliğ etmək üçün hədiyyə qazanmaq imkanı yaradır.Avtomobili olan istənilən şəxs yuxarıda qeyd olunan anketi dolduraraq yarışda iştirak edə bilər.Daxil edilən bütün məlumatlar tam olaraq düzgün qeyd olunmalıdır.Əks halda hədiyyə qazanılarsa,səhv məlumatlar qeyd edilmiş şəxsə hədiyyələrin təqdim olunmasından imtina olunacaq.Zəhmət olmasa anketdə qeyd edilən informasiyanın tam düzgün qeyd edilməsinə əmin olun və <a href="javascript:void(0)">şərtlərlə</a> tanış olun.
+                        </p>
+                    </div>
+                    <div class="col s12">
+                        <p class="det-title-thin">Yarışma müddəti</p>
+                        <p class="det-txt">Yarışma 10 Dekabr -10 mart arasında davam edəcək.</p>
+                    </div>
+                    <div class="col s12">
+                        <p class="det-title-thin">Qalibin təyin olunması</p>
+                        <p class="det-txt">Hər ay üzrə qaliblər növbəti ayın 2-də xüsusi proqram vasitəsilə emaillər arasında ixtiyari seçim vasitəsilə seçiləcək.İlk seçim tarixi 11 Yanvar,ikinci seçim tarixi 11 Fevral,3-cu seçim tarixi 11 mart olacaqdır.Hər 3 seçim mərhələsində qeydiyyatdan keçən bütün istifadəçilər iştirak edəcək.</p>
+                    </div>
+                </div>
+                <!--the start of gifts-->
+                <div class="row gifts">
+                    <div class="col s12">
+                        <p class="gifts-title">Hədiyyələr</p>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>Blackbery Aurora Dual Black 32GB</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">1</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>Remax 5000mAh powerbank</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">5</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>2 nəfərlik kinoteart bileti</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">10</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>Restorana 25 manatlıq hədiyyə kartı</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">1</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>20 manatlıq hesab.az hədiyyə kartı</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">5</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                        <div class="col m4 s6 gift-cell">
+                            <a href="javascript:void(0)" class="gift-cell-img"></a>
+                            <p>10 manatlıq hesab.az hədiyyə kartı</p>
+                            <div class="gift-count circle">
+                                <p class="cnt_gift">4</p>
+                                <p class="txt_gift">ədəd</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 center-align gift-btn">
+                        <a href="javascript:void(0)" class="btn ins-btn">İcbari sığortanı online al<i class="mdi mdi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!--the end of gifts-->
+            </div>
+        </div>
+    <!--jquery files-->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!--material design js-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--own js file-->
+    <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>
+    <!--select2-->
+    <script src="select2/js/select2.min.js"></script>
+
+    <script>
+        $('.reg-cover').show();
+        $('.competition-input').hide();
+        $('.successful-reg').hide();
+
+        $('select').select2();
+        $('#lt-fg-pass-modal').modal();
+        $('#fg-pass-modal').modal();
+        $(document).ready(function(){
+            $('ul.tabs').tabs();
+        });
+        $(document).on('click','.pass-modal i.mdi-close',function () {
+            $('.pass-modal').modal('close');
+        })
+        $(document).on('click','.send_btn',function () {
+            $('#lt-fg-pass-modal').modal('close');
+        })
+        $(document).on('click','.enter-btn',function () {
+           $('.reg-cover').hide();
+           $('.competition-input').show();
+           $('.successful-reg').show();
+        })
+
+        $('.datetimepicker').datetimepicker({
+            lang:'ch',
+            timepicker:false,
+            format:'d/m/Y',
+            formatDate:'Y/m/d'
+        });
+
+
+        $('.warning-message-ins').hide();
+        $(document).on('click','.add_auto',function () {
+
+            var lengthAddedAuto=$('.auto-detail').children().length;
+            if(lengthAddedAuto>3){
+                $('.warning-message-ins').show();
+            }else{
+                $('#extra-auto-dtl').clone().appendTo('.auto-detail');
+                $('.datetimepicker').datetimepicker({
+                    lang:'ch',
+                    timepicker:false,
+                    format:'d/m/Y',
+                    formatDate:'Y/m/d'
+                });
+                $('.warning-message-ins').hide();
+            }
+        })
+
+        $('.ins-lang').click(function(){
+            if( $(this).hasClass('active') )
+                $(this).text('AZ');
+            else
+                $(this).text('RUS');
+
+            $(this).toggleClass('active');
+        });
+
+
+
+        $(document).on('click','#ins-rules',function () {
+            $('#ins-rules .chevron-icon').toggleClass('mdi-chevron-up');
+            if($('#ins-about').css('display') != 'none'){
+                $('#ins-about').hide();
+            }
+            $('#ins-rule').slideToggle();
+        })
+        $(document).on('click','#ins-abouts',function () {
+            $('#ins-abouts .chevron-icon').toggleClass('mdi-chevron-up');
+            if($('#ins-rule').css('display') != 'none'){
+                $('#ins-rule').hide();
+            }
+            $('#ins-about').slideToggle();
+        })
+
+
+        var navTopPosition = 0;
+        $(".join-race").click(function (e) {
+            e.preventDefault();
+            var id = $(this).attr("target");
+            var top;
+            if ($(document).scrollTop() >= navTopPosition)
+                top = $(id).offset().top - 66;
+            else
+                top = $(id).offset().top - 68;
+
+            $('html, body').animate({
+                scrollTop: top
+            }, 1000);
+        });
+    </script>
+    </body>
+</html>
